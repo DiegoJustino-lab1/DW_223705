@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fundo.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit_form" method="post" class="form-centralizado" >
+        <label for="input">Nome do segurado:</label><br>
+        <input type="text"  id="input" placeholder="Nome: "><br>
+        
+        <label for="sexo">Sexo:</label><br>
+<select id="sexo" name="sexo">
+  <option value="masculino">Masculino</option>
+  <option value="feminino">Feminino</option>
+</select><br>
+        
+<label for="idade">Idade:</label><br>
+<input type="number" id="idade" name="idade" min="1" max="120" placeholder="Idade: "><br>
+        
+        <label for="input4">Valor do veículo:</label><br>
+        <input type="text" id="input4" placeholder="Valor total: "><br>
+        
+        <input type="submit" value="Enviar" onclick="calcular(event)"><br>
+        </form>
+    <script src="logica.js"></script>
+</body>
+</html>

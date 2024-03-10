@@ -1,0 +1,21 @@
+body {
+    background-image: url('consorcio-de-carros-entenda-como-funciona.jpeg.pagespeed.ce.mkXkPzJQbo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-centralizado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form label {
+    font-size: 2em; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+}
