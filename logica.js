@@ -21,7 +21,7 @@ function calcular(event) {
         console.log('O valor da apólice para ' + nome + ' é: ' + valorApolice);
     }
     else if (sexo.toLowerCase() === 'feminino') {
-        valorApolice = valorVeiculo;
+        valorApolice = valorVeiculo * 0.08;
         console.log('O valor da apólice para ' + nome + ' é: ' + valorApolice);
     }
 
